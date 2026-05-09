@@ -12,6 +12,7 @@ function Home() {
     if (!query.trim()) {
       setCountries([]);
       setError(null);
+      setLoading(false);
       return;
     }
 
@@ -57,7 +58,7 @@ function Home() {
         </div>
       )}
 
-      {!loading && !error && countries.length === 0 && !query && (
+      {!loading && !error && countries.length === 0 && (
         <p className="home__status">Start searching to explore countries.</p>
       )}
     </div>
