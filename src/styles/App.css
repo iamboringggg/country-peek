@@ -150,3 +150,39 @@
 .page-status--error {
     color: red;
 }
+
+.fav-btn {
+    margin-top: 12px;
+    padding: 8px 12px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 14px;
+    color: #666;
+    font-weight: 600;
+}
+
+.fav-btn--saved {
+    color: crimson;
+}
+
+.empty-state {
+    padding: 40px;
+    text-align: center;
+}
+
+.empty-state h2 {
+    margin-bottom: 10px;
+}
+
+.empty-state p {
+    margin-bottom: 20px;
+}
+
+.back-home-link {
+    display: inline-block;
+    padding: 10px 16px;
+    border-radius: 8px;
+    background: #2563eb;
+    color: white;
+}
